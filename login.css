@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+align-items: center;
+background-color: #F28D00;
+display: flex;
+font-family: 'Open Sans', sans-serif;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.planoDeFundo{
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 50%;
+}
+
+.agrupamentoLogoLogin{
+    align-items: center;
+    display: flex;
+    gap: 250px;
+    height: 80%;
+    justify-content: space-between;
+    width: 80%;
+    z-index: 2;
+}
+
+.containerLogoLaranja{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.logoLaranja {
+    display: flex;
+    width: 50%;
+    opacity: 0.70;
+}
+
+.agrupamentoLogin {
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 80%;
+    padding: 60px;
+    width: 100%;
+}
+
+.agrupamentoLoginPreenchaDados {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.tituloLogin {
+    color: #F28D00;
+    font-size: 30px;
+
+}
+
+.paragrafoPreenchaDados {
+    color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.agrupamentoEntreComOuCadastre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input { 
+    border: none;
+    border-bottom: 1px solid #F28D00;
+    border-radius: 35px;
+    font-size: 18px;
+    outline-color: #F28D00;
+    padding: 10px;
+    width: 100%;
+}
+
+a {
+    color: #F28D00;
+    text-decoration: none;
+    width: fit-content;
+}
+
+a:active {
+    color: gray;
+}
+
+button {
+    background-color: #F28D00;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+button:active {
+    background-color: white;
+    border: 1px solid #F28D00;
+    border-radius: 35px;
+    color: #F28D00;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.paragrafoOuEntre {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.paragrafoNaoTemConta {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.opçãoOuEntreCom {
+    width: 40px;
+    }
